@@ -1,0 +1,22 @@
+.slider-btn{
+    position: absolute;
+    left:0;
+    bottom: 0;
+    display: flex;
+    background-color: black;
+
+    &__link{
+        display: block;
+        width: 107px;
+        height: 107px;
+        margin: 0;
+        padding: 0;
+        border: none;
+        background-color: black;
+        cursor: pointer;
+
+        &:hover{
+            background-color: #444444;
+        }
+    }
+}

@@ -1,0 +1,51 @@
+.text-slider{
+    padding-left: 6.8%;
+    padding-top: 160px;
+    padding-right: 6.8%;
+    width: 42%;
+    position: relative;
+
+    &__title{
+        font-size: 50px;
+        line-height: 59px;
+        letter-spacing: -3px;
+        font-weight: 600;
+
+        margin-bottom: 36px;
+    }
+
+
+    &__link{
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 11px;
+
+        &:hover{
+            opacity: 40%;
+        }
+    }
+}
+
+@keyframes fadeOut{
+    0%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(40px);
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn{
+    0%{
+        transform: translateX(40px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}

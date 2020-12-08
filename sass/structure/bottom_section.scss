@@ -1,0 +1,28 @@
+.bottom-section{
+    display: flex;
+    justify-content: space-between;
+
+    &__image{
+        height: 354px;
+        width: 30.75%;
+
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    &__text{
+        width: 38.5%;
+        padding-left: 78px;
+        padding-top: 90px;
+        padding-right: 120px;
+
+        h2{
+            font-size: 18px;
+            letter-spacing: 6px;
+
+            margin-bottom: 22px;
+        }
+    }
+}

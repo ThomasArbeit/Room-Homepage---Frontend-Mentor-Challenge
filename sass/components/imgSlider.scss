@@ -1,8 +1,15 @@
 .img{
+
     &__container{
+        position: relative;
+
         width: 58%;
         height: 712px;
         overflow: hidden;
+
+        @media (max-width: 1145px){
+            width: 100%;
+        }
     }
 
     &__slider{

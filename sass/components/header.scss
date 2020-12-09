@@ -1,0 +1,32 @@
+.header{
+    z-index: 1;
+    position: absolute;
+    top: 84px;
+    left: 85px;
+
+    display: flex;
+    align-items: flex-end;
+
+    img{
+        margin-right: 75px;
+    }
+
+    ul{
+        display: flex;
+
+        li{
+            list-style: none;
+            margin-right: 40px;
+            display: block;
+
+            a{
+                text-decoration: none;
+                color: white;
+
+                &:hover{
+                    border-bottom: solid 2px white;
+                }
+            }
+        }
+    }
+}

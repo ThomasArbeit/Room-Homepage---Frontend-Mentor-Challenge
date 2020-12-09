@@ -4,10 +4,18 @@
     bottom: 0;
     display: flex;
     background-color: black;
+    width: 26.8%;
+
+    @media (max-width: 1145px){
+        bottom: 100%;
+        left: unset;
+        right: 0;
+        width: 200px;
+    }
 
     &__link{
         display: block;
-        width: 107px;
+        width: 50%;
         height: 107px;
         margin: 0;
         padding: 0;
@@ -19,4 +27,6 @@
             background-color: #444444;
         }
     }
+
+
 }

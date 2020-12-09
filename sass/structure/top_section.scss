@@ -1,4 +1,8 @@
 .top-section{
     display: flex;
     width: 100%;
+
+    @media (max-width: 1145px){
+        flex-direction: column;
+    }
 }

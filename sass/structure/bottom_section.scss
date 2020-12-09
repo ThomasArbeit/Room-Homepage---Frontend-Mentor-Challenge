@@ -2,13 +2,24 @@
     display: flex;
     justify-content: space-between;
 
+    @media (max-width: 1145px){
+        flex-direction: column;
+    }
+
     &__image{
         height: 354px;
         width: 30.75%;
 
+        @media (max-width: 1145px){
+            width: 100%;
+        }
+
         img{
             height: 100%;
             width: 100%;
+
+            object-fit: cover;
+            object-position: center;
         }
     }
 
@@ -16,7 +27,11 @@
         width: 38.5%;
         padding-left: 78px;
         padding-top: 90px;
-        padding-right: 120px;
+        padding-right: 85px;
+
+        @media (max-width: 1145px){
+            width: 100%;
+        }
 
         h2{
             font-size: 18px;
